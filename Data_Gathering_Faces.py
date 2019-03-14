@@ -34,7 +34,7 @@ while(True):
 
             # Press 'ESC' for exiting video       
         
-        if count >= 505: # Take 3000 face sample and stop video
+        if count >= 500: # Take 500 face sample and stop video
             break
 
          # Save the captured image into the datasets folder
@@ -48,7 +48,7 @@ while(True):
         if k == 27:
             break
         
-    if count >= 505: # Take 3000 face sample and stop video
+    if count >= 500: # Take 500 face sample and stop video
         break
 
     
