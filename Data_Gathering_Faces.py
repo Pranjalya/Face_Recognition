@@ -43,6 +43,7 @@ while(True):
 
              # Save the captured image into the datasets folder
             cv2.imwrite("tf_files/Faces_Datasets/" + face_name + '/' + str(count) + "new" + ".jpg", img[y:y+h,x:x+w])
+            # Performing image augmentation
             cv2.imwrite("tf_files/Faces_Datasets/" + face_name + '/' + str(count) + "gray" + ".jpg", gray[y:y+h,x:x+w])
             # Image is 126 x 126
 
